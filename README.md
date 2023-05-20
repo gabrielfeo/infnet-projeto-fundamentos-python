@@ -1,6 +1,23 @@
 # infnet-projeto-fundamentos-python
 
-Este repositório contém um esqueleto das classes que você deve implementar como parte do projeto abaixo.
+Este repositório contém um esqueleto das classes que você deve implementar como parte do projeto. Cada classe da pasta [projeto](/projeto) é um esqueleto, por exemplo:
+
+```python
+class Trabalhador:
+  def receber_aumento(self, novo_salario):
+    pass
+```
+
+Você deve implementar o estado e implementar cada função (comportamento):
+
+```python
+class Trabalhador:
+  def __init__(self, salario_atual):
+    self.salario = salario_atual
+
+  def receber_aumento(self, novo_salario):
+    self.salario = novo_salario
+```
 
 ## Projeto Back-End Sistema Acadêmico
 
